@@ -1,0 +1,10 @@
+data/
+*.duckdb
+report/project_report.html
+*.csv
+*.xlsx
+*.pbix
+__pycache__/
+.DS_Store
+Thumbs.db
+SETUP.md

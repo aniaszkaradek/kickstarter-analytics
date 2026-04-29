@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk -F',' '{print NF; exit}' \"/home/iza/Desktop/Ania projects/SQL/data/ks-projects-201612.csv\")",
+      "Bash(awk -F',' '{print NF; exit}' \"/home/iza/Desktop/Ania projects/SQL/data/ks-projects-201801.csv\")",
+      "Bash(psql --version)",
+      "Bash(pg_lsclusters)",
+      "Bash(dpkg -l)",
+      "Bash(snap list *)",
+      "Bash(apt list *)",
+      "Bash(systemctl status *)",
+      "Bash(command -v psql)",
+      "Bash(command -v python3)",
+      "Bash(command -v pip3)",
+      "Bash(pip3 --version)",
+      "Bash(chmod +x *)"
+    ]
+  }
+}
